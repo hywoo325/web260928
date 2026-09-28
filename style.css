@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+body {
+  margin: 0;
+}
+
+div#header-title {
+  background-color: lightgray;
+  width: 100vw;
+  padding-left: 32px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.movie {
+  display: flex;
+  gap: 15px;
+  background-color: lightgray;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.movie:first-child {
+  background-color: gray;
+}
+
+.movie:last-child {
+  background-color: lightyellow;
+}
+
+.movie p::after {
+  content: " 생략";
+}
+
+a:link {
+  color: black;
+}
+
+/* 코드펜이라 잘 작동하지 않는 듯함 */
+a:visited {
+  color: darkred;
+}
+
+footer {
+  font-size: 0.7rem;
+}
